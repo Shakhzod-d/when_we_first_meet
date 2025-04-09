@@ -17,3 +17,8 @@ export type EndorsementType = {
   endorsed_by_phone: string;
   is_published: boolean;
 };
+
+export type PostMessageResponseType = {
+  success?: boolean;
+  error?: string;
+};
