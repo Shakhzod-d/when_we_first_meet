@@ -11,7 +11,7 @@ export type EndorsementResponseType = {
 export type EndorsementType = {
   id: number;
   user_id: string;
-  content: string;
+  content: string | null;
   created_at: string;
   endorsed_by_name: string;
   endorsed_by_phone: string;

@@ -19,7 +19,7 @@ export const fetchItemsServ = async <T>(
 
 export const postItemsServ = async <T>(
   url: string,
-  body: Record<string, T>,
+  body: Record<string, string>,
   headers: FetchItemsOptionsType = {}
 ): Promise<T> => {
   const defaultHeaders = {
